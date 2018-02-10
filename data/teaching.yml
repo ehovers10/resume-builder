@@ -1,0 +1,59 @@
+introRU:
+  title: Introduction to Philosophy
+  school: Rutgers University
+  term:
+    - Fall 2011
+    - Spring 2012
+  resources:
+    - title: Syllabus
+      link: "http://www.erikhoversten.org/teaching/ru103s12-syllabus.pdf"
+    - title: Assessment
+      link: "http://www.erikhoversten.org/teaching/ru103s12-assessment.pdf"
+
+cmsiRU:
+  title: Current moral and social issues
+  school: Rutgers University
+  term: Fall 2013
+  resources:
+    - title: Syllabus
+      link: "http://www.erikhoversten.org/teaching/ru105f13-syllabus.pdf"
+    - title: Assessment
+      link: "http://www.erikhoversten.org/teaching/ru105f13-assessment.pdf"
+
+ethicsRU:
+  title: Introduction to ethics
+  school: Rutgers University
+  term: Spring 2014
+  resources:
+    - title: Syllabus
+      link: "http://www.erikhoversten.org/teaching/ru107s14-syllabus.pdf"
+    - title: Assessment
+      link: "http://www.erikhoversten.org/teaching/ru107s14-assessment.pdf"
+    - title: Course Materials
+      link: "http://www.erikhoversten.org/teaching/intro-ethics-s14/index.html"
+
+lrpRU:
+  title: Logic, reason, and persuasion
+  school: Rutgers University
+  term: Fall 2014
+  resources:
+    - title: Syllabus
+      link: "http://www.erikhoversten.org/teaching/ru101f14-syllabus.pdf"
+    - title: Lectures
+      link: "http://erikhoversten.org/teaching/ru101-f14/"
+
+logicRU:
+  title: Introduction to Logic
+  school: Rutgers University
+  term: Spring 2015
+  resources:
+    - title: Course Materials
+      link: "http://erikhoversten.org/intro-logic/"
+
+introMSU:
+  title: Introduction to Philosophy
+  school: Montclair State University
+  term: Fall 2015
+  resources:
+    - title: Course Materials
+      link: "http://erikhoversten.org/phil-intro/"

@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+}
+
+a {
+  color: rgba(42, 122, 226,0.8);
+}
+
+.page {
+  margin: 0 auto;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  width: 800px;
+}
+
+@media print {
+  .page { 
+    font-size: 12px; 
+    //width: 100%;
+  }
+}
+
+
+
+/* .top respresents the personal information section */
+
+.top {
+  margin-bottom: 1em;
+  page-break-before: always;
+}
+.top .info:after {
+  content: '';
+  display: block;
+  clear: both;
+  border-bottom: 3px solid rgba(42, 122, 226,0.8);
+  padding-bottom: 0.25em;
+}
+
+.top .name {
+  font-size: 3.5em;
+}
+.top > div {
+  min-width: 300px;
+  margin-bottom:5px;
+}
+
+.top .left {
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+.top .right {
+  float: right;
+  text-align: right;
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+.top .description.addl {
+  display: none;
+}
+
+@media screen {
+  .top.addl {
+    display: none;
+  }
+}
+
+/* The body (.main) is divided into one or more .part[s] */
+
+.part {
+  padding-left: 0;
+  margin: 1em;
+}
+
+.part > .title {
+  font-weight: 600;
+  font-size: 1.5em;
+  margin: 5px 0 0;
+  padding: 3px 0;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  background: #aaaaaa;  
+  width: 100%;
+  text-align:center;
+  min-width: 200px;
+}
+
+/* Each .part has one or more .section[s] */
+
+.section {
+  margin: 0 0 8px;
+  page-break-inside:avoid;
+}
+.section > .title {
+  font-weight: 600;
+  font-size: 1.25em;
+  margin: 0;
+  padding: 3px 8px;
+  //padding-right: 20px;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  background: rgba(42, 122, 226,0.8);  
+  width: 40%;
+  min-width: 200px;
+}
+.section > .body {
+  border: 2px solid rgba(42, 122, 226,0.8);
+}
+.section .body .title {
+  font-weight: 400;
+  font-size: 1.25em;
+  margin: 0;
+  padding: 3px 0;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  background: #aaaaaa;  
+  width: 100%;
+  text-align:center;
+  min-width: 200px;
+}
+.section .element {
+  padding: 0.5em 0.5em 0.2em;
+}
+.section .element::first-line {
+  margin-left: -10px;
+}
+.section .start {
+  font-size: 1.25em;
+}
+.section .details {
+  //border-left: 2px solid #aaaaaa;
+  padding-left:8px;
+  margin: 0.3em 0.5em;
+}
+
+.listhead {
+  font-weight: 600;
+}
+ul.sub {
+  display: inline;
+  padding-left: 0;
+}
+ul.sub li {
+  display: inline;
+  list-style-type: none;
+}
+ul.sub li:after {
+  display: inline;
+  content: '; '
+}
+ul.sub li:last-child:after {
+  display: inline;
+  content: '';
+}

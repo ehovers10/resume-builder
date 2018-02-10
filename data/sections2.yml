@@ -1,0 +1,58 @@
+- education:
+    - maRU
+    - maUW
+    - baUW
+
+  employment:
+    - type: compost
+      elements:
+        - ocNYCCP
+        - orcNYCCP
+        - faNYCCP
+
+    - type: systems
+      elements:
+        - sysdevBIG
+
+    - type: philosophy
+      elements:
+        - ptlMSU
+        - taRU
+                
+  qualifications:
+    - type: compost
+      elements:
+        - skidOp
+        - compostOp
+        - masterComposter 
+    - type: philosophy
+      elements:
+        - cogsciRU
+        - bestMA
+
+- projects:
+    - type: compost
+      elements:
+        - compostOP
+        - compostData
+        - mountainCompost
+    - type: systems
+      elements:
+        - bigWebsite
+        - bigDonations
+        - bigEcom
+        - bigNewsletters
+    - type: philosophy
+      elements:
+        - philCollab
+        - philTaste
+
+  teaching:
+    - introMSU
+    - logicRU
+    - lrpRU
+    - ethicsRU
+    - cmsiRU    
+    - introRU 
+
+

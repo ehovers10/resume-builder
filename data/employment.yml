@@ -1,0 +1,74 @@
+taRU:
+  title: Graduate Teaching Assistant
+  organization: Rutgers University
+  tenure:
+    start: September 2011
+    end: May 2015
+  responsibilities:
+    - Design course structure 
+    - develop lecture materials
+    - plan, write, and grade assignments and exams
+    - hold office hours and maintain relationships with students
+
+ptlMSU:
+  title: Part-time Lecturer
+  organization: Montclair State University
+  tenure:
+    start: September 2015
+    end: December 2015
+#  responsibilities:
+#    - Design course structure 
+#    - Develop lecture materials
+#    - Plan, write, and grade assignments and exams
+#    - Hold office hours and maintain relationships with students
+
+faNYCCP:
+  title: Field Assistant
+  organization: NYC Compost Project Hosted by Big Reuse
+  tenure:
+    start: May 2015
+    end: December 2015
+  responsibilities:
+    - Staff food scrap drop-offs 
+    - assist with compost processing 
+    - coordinate volunteers at street tree-care events
+
+sysdevBIG:
+  title: Systems Developer
+  organization: Big Reuse
+  tenure:
+    start: June 2015
+    end: Present
+  responsibilities:
+    - Uncover inefficiencies and develop improvements in automated operational systems such as donation and sales tracking
+    - implement and maintain tools for staff use of systems that are responsive to staff needs and capabilities
+    - verify and maintain data integrity
+    - troubleshoot techincal issues and maintain correspondence with staff and the public regarding solutions 
+    - serve as a public voice of the organization via online publications
+ 
+orcNYCCP:
+  title: Organics Recovery Coordinator
+  organization: NYC Compost Project Hosted by Big Reuse
+  tenure:
+    start: January 2016
+    end: January 2017
+  responsibilities:
+    - Staff food scrap drop-offs, where NYC residents can bring their food scraps for composting
+    - assist with processing of food scraps at the compost site 
+    - develop and create informational materials for internal use and public education
+    - develop and distribute electronic public outreach materials, such as monthly email newsletters and blog posts
+    
+ocNYCCP:
+  title: Operations Coordinator
+  organization: NYC Compost Project Hosted by Big Reuse
+  tenure:
+    start: February 2017
+    end: Present
+  responsibilities:
+    - Supervise food scrap processing at the compost site
+    - develop and implement an operations plan for compost processing
+    - research and purchase equipment needed for the composting process
+    - liaise with partner organizations about shared use of space and on-site event hosting
+    - develop and maintain protocol for quality control, safety, and record keeping
+    
+

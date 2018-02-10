@@ -1,0 +1,37 @@
+cogsciRU:
+  organization: Rutgers University Center for Cognitive Science
+  title: Graduate Certificate in Cognitive Science
+  date: May 2018
+  details:
+    Recognition for interdisciplinary scholarship concerned with understanding the nature and development of intelligent capacities. Requires 12 credits for qualifying courses from outside the student's home department.
+    
+bestMA: 
+  organization: "University of Wyoming School of Arts & Sciences"
+  title: Outstanding Masters Thesis Award
+  date: May 2008
+  details: 
+    Recognition for contribution to the master's enterprise of the university. Master's theses in the areas of the physical and life sciences, the social sciences, and humanities and fine arts are considered. Five students were awarded in 2008.
+  documentation:
+    title: Press release
+    link: "http://www.uwyo.edu/uw/news/2009/05/uw-graduate-school-awards-outstanding-graduate-contributions.html"
+
+compostOp:    
+  organization: US Composting Council
+  title: Compost Operations Training Course
+  date: September 2016
+  details:
+    A 40 hour course taught by leading composting professionals and educators focusing on the knowledge and skills needed to run a successful composting facility. Includes lectures, hands-on activities, and field trips.
+
+masterComposter:
+  organization: NYC Compost Project Hosted by Brooklyn Botanic Garden
+  title: Master Composter Course
+  date: 2016
+  details:
+    An advanced composting course that trains a select group of New Yorkers to support, develop, and maintain community-based composting projects. Requires 24 hours of classroom instruction, two field trips, and 30 hours of compost-related fieldwork.
+
+skidOp:
+  organization: Total Equipment Training
+  title: Skid Steer Operator Training
+  date: March 2017
+  details:
+    A comprehensive skid steer operator program consisting of classroom and practical hands on training and evaluation. Includes both a written and practical evaluation of competency to satisfy OSHA training requirements.

@@ -1,0 +1,31 @@
+baUW:
+  school: University of Wyoming
+  degree: BA
+  department: Philosophy
+  date: December 2005
+  details:
+  awards:
+    - magna cum laude
+    
+maUW: 
+  school: University of Wyoming
+  degree: MA
+  department: Philosophy
+  date: May 2008
+  thesis:
+    title: Disagreement in Context
+    link: ""
+  details: 
+  awards:
+    - Best thesis
+
+maRU:    
+  school: Rutgers University
+  degree: MA
+  department: Philosophy
+  date: May 2018
+  thesis:
+    title: Discourse as Collaborative Inquiry
+    link: "http://dci.erikhoversten.org"
+  details:
+    I completed the course work requirements for a PhD, but I was not able to finish the dissertation requirement.

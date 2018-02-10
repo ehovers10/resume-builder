@@ -1,0 +1,98 @@
+bigWebsite:
+  title: Big Reuse Website
+  organization: Big Reuse
+  date: Launched October 2016
+  tools: [Wordpress,html,css,javascript,php]
+  output: "http://bigreuse.org/"
+  description:
+    Management of an overhaul of the public website for Big Reuse, including the design of a mobile-responsive website with a company overview splash page, departmental information pages, staff directory, jobs list, blog page, and social media integrations. The design work included sourcing images, developing design elements collaboratively with staff and managers, and composing content.
+
+bigDonations:
+  title: Donations Pipeline
+  organization: Big Reuse
+  date: Phase 1 launched December 2016, Phase 2 launched January 2017
+  tools: [Jotform form building app, Zapier integration platform, javascript]
+  output: ""
+  description:
+    Development of an automation pipeline to improve the efficiency of materials donations from the customer inquiry phase through adding donated items to inventory. This involved communicating with donations staff regarding their needs, devising an easy-to-use means of acquiring donor information, and translating the data received into formats usable for a variety of web applications. The result is that donors can quickly get a record of their donation for tax purposes and Big Reuse can track the kinds of donations they receive, improve communication with donors, and expand the opportunity for repeat donations.
+
+bigEcom:
+  title: Ecommerce and POS Platform
+  organization: Big Reuse
+  date: Launched July 2017
+  tools: [Lightspeed Retail and Ecommerce POS, html, twig php templating, javascript]
+  output: "http://shop.bigreuse.org"
+  description:
+    Development of a point of sale system for Big Reuse incorporated with an ecommerce platform. Building the point of sale system involved developing a category structure for store inventory and training staff on the proper procedures for adding new inventory and making sales. The ecommerce platform involved integrating the in-store and online sales channels, duplicating in-store promotions in the ecommerce platform, and designing the user interface for the online store.
+
+bigNewsletters:
+  title: Email Newsletter Program
+  organization: Big Reuse
+  date: June 2015 to November 2017
+  tools: [MailChimp and Constant Contact marketing platforms, Zapier integration platform, Lightspeed ecommerce API, html, php]
+  output: "https://goo.gl/DWRS8s"
+  addl_link:
+    - title: Big Reuse Product Blocks
+      link: "http://bigreuse.org/inventoryblocks"
+  description:
+    Development and implementation of an email newsletter program for Big Reuse. The project required generating weekly newsletters and growing the company contact list. Additional work involved development of a tool for generating product blocks for easy incorporation into emails and training staff to take over the newsletter generation task.
+
+compostOP:
+  title: Composting Operations Plan
+  organization: NYC Compost Project Hosted by Big Reuse
+  date: December 2017
+  tools: [Google docs and sheets, javascript]
+  output: "http://erikhoversten.org/research/salt-lot-ops.pdf"
+  description: 
+    Creation of an operations plan for composting at the Salt Lot Compost Site operated by the NYC Compost Project Hosted by Big Reuse. The plan includes detail on feedstock procurement, pile build specifics, monitoring and quality control, and equipment maintenance.
+
+compostData:
+  title: Compost Data Tracking System
+  organization: NYC Compost Project Hosted by Big Reuse
+  date: Major redesign December 2017
+  tools: [Google forms and sheets]
+  output: "http://bigreuse.org/processing-site-log"
+  addl_link:
+    - title: Operations Log Form
+      link: ""
+    - title: Operations Log Tracking
+      link: ""
+    - title: Field Data Log Form
+      link: ""
+    - title: Field Data Log Tracking
+      link: ""
+  description:
+    Data tracking tools for compost site management. The tracking project required devising a means to bring in data from the field and manipulating the data into a human-readable form for easy analysis.
+
+philTaste:
+  title: Disagreement in Context
+  organization: University of Wyoming
+  date: May 2008
+  output: "http://erikhoversten.org/research/disagreement-context-full.pdf"
+  description:
+    In my Masters thesis, I examine the evidence for semantic relativism provided by discourses involving disagreement over matters of taste. Intuitively, these discourses involve faultless disagreement; despite having a point of genuine conflict between them, neither party is incorrect in their assertion. I pull out a number of criteria that an adequate proposal for the semantics of predicates of personal taste must meet. While relativism offers one adequate proposal, I argue that a contextualist proposal can also adequately account for our intuitions. The key instight is that disagreement can be carried by pragmatic features of utterances, even if there is no semantic conflict.
+
+philCollab:
+  title: Discourse as Collaborative Inquiry
+  organization: Rutgers University
+  date: May 2018
+  output: "http://dci.erikhoversten.org"
+  description:
+    I contend that conversation commonly realizes a collaborative inquiry, which is to say that successful contribution to the discourse requires the efforts of multiple parties working in concert, not just serially. It is the goal of this project to explain, motivate, and provide a model of implementation for this idea, what I call collaborative discourse dynamics. 
+
+letThereBe:
+  title: Let There Be Lighting
+  organization: Erik Hoversten
+  date: September 2016
+  output: "http://erikhoversten.org/lettherebe"
+  description: 
+    A series of steam-punk style lamps inspired by philosophical figures and ideas. All lamps were designed and built by Erik in Brooklyn, NY.
+
+mountainCompost:
+  title: Mountain Compost
+  organization: Erik Hoversten
+  date: October 2016
+  output: "http://mountaincompost.com/"
+  tools: [Jekyll templating engine, javascript, html, css]
+  description:
+    A set of tools related to community-scale composting geared specifically to mountain environments. The website includes a set of data visualization tools (compost calculator, tempurature tracking, and odor analysis), research resources list, and a draft proposal for a implementing a mid-scale composting organization.

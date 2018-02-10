@@ -1,0 +1,17 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Erik Hoversten <ehovers10@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "jquery": "^3.3.1",
+    "js-yaml": "^3.10.0",
+    "jsdom": "^11.5.1"
+  }
+}

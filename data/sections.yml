@@ -1,0 +1,45 @@
+- title: systems
+  employment:
+    - sysdevBIG
+  qualifications:
+  projects: 
+    - bigDonations
+    - bigEcom
+    - bigWebsite
+    - bigNewsletters
+    
+- title: compost
+  employment:
+    - ocNYCCP
+    - orcNYCCP
+    - faNYCCP
+  qualifications:
+    - skidOp
+    - compostOp
+    - masterComposter  
+  projects:
+    - compostOP
+    - compostData
+    
+- title: philosophy
+  education:
+    - maRU
+    - maUW
+    - baUW
+  employment:
+    - ptlMSU
+    - taRU
+  projects:
+    - philCollab
+    - philTaste
+  qualifications:
+    - bestMA
+    - cogsciRU
+  courses:
+    - introMSU
+    - logicRU
+    - lrpRU
+    - ethicsRU
+    - cmsiRU
+    - introRU
+
