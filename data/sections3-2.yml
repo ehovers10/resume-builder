@@ -1,0 +1,69 @@
+- type: education
+  content:
+  - items:
+    - id: maRU
+      sub:
+      - type: projects
+        content:
+        - items:     
+          - id: philCollab
+      - type: qualifications
+        content:
+        - items:
+          - id: cogsciRU
+    - id: maUW
+      sub:
+      - type: projects
+        content:
+        - items:
+          - id: philTaste
+      - type: qualifications
+        content:
+        - items:
+          - id: bestMA        
+    - id: baUW
+- type: employment
+  content:
+  - area: compost
+    items:
+    - id: ocNYCCP
+      sub:
+      - type: projects
+        content:
+        - items:
+          - id: compostOP
+          - id: compostData
+          - id: mountainCompost
+      - type: qualifications
+        content:
+        - items:
+          - id: skidOp
+          - id: compostOp
+          - id: masterComposter 
+    - id: orcNYCCP
+    - id: faNYCCP
+  - area: systems
+    items:
+    - id: sysdevBIG
+      sub:
+      - type: projects
+        content:
+        - items:
+          - id: bigWebsite
+          - id: bigDonations
+          - id: bigEcom
+          - id: bigNewsletters
+  - area: philosophy
+    items:
+    - id: ptlMSU
+    - id: taRU
+      sub:
+      - type: teaching
+        content:
+        - items:
+          - id: introMSU
+          - id: logicRU
+          - id: lrpRU
+          - id: ethicsRU
+          - id: cmsiRU    
+          - id: introRU

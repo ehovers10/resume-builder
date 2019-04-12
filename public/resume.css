@@ -1,9 +1,11 @@
+@font-face { font-family: 'glam'; src: url('/fonts/GlametrixBold.otf'); }
+
 body {
   margin: 0;
 }
 
 a {
-  color: rgba(42, 122, 226,0.8);
+  color: rgba(42, 122, 226, 0.9);
 }
 
 .page {
@@ -12,11 +14,17 @@ a {
   font-size: 14px;
   width: 800px;
 }
-
+.top .name, h2, h4 {
+  font-family: glam, sans-serif;
+  line-height: 0.75;
+}
 @media print {
   .page { 
     font-size: 12px; 
     //width: 100%;
+  }
+  .part {
+    margin: 0!important;
   }
 }
 
@@ -32,16 +40,16 @@ a {
   content: '';
   display: block;
   clear: both;
-  border-bottom: 3px solid rgba(42, 122, 226,0.8);
+  border-bottom: 3px solid rgba(42, 122, 226,0.7);
   padding-bottom: 0.25em;
 }
 
 .top .name {
-  font-size: 3.5em;
+  font-size: 4em;
 }
 .top > div {
   min-width: 300px;
-  margin-bottom:5px;
+  margin-bottom: 0.4em;
 }
 
 .top .left {
@@ -52,7 +60,7 @@ a {
 .top .right {
   float: right;
   text-align: right;
-  font-size: 0.9em;
+  //font-size: 0.9em;
   line-height: 1.2em;
 }
 .top .description.addl {
@@ -70,6 +78,7 @@ a {
 .part {
   padding-left: 0;
   margin: 1em;
+  line-height: 1.25;
 }
 
 .part > .title {
@@ -88,67 +97,107 @@ a {
 /* Each .part has one or more .section[s] */
 
 .section {
-  margin: 0 0 8px;
-  page-break-inside:avoid;
+  margin: 0 0 0.75em;
+  //page-break-inside:avoid;
 }
-.section > .title {
+h2 {
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 2.25em;
   margin: 0;
-  padding: 3px 8px;
-  //padding-right: 20px;
+  margin-bottom: 0.175em;
   text-transform: capitalize;
   font-variant: small-caps;
-  background: rgba(42, 122, 226,0.8);  
-  width: 40%;
-  min-width: 200px;
-}
-.section > .body {
-  border: 2px solid rgba(42, 122, 226,0.8);
-}
-.section .body .title {
-  font-weight: 400;
-  font-size: 1.25em;
-  margin: 0;
-  padding: 3px 0;
-  text-transform: capitalize;
-  font-variant: small-caps;
-  background: #aaaaaa;  
+  border-bottom: 2px solid rgba(42, 122, 226,0.7);
   width: 100%;
-  text-align:center;
+}
+h4 {
+  font-weight: 600;
+  font-size: 2em;
+  margin: 0;
+  padding-bottom: 0.175em;
+  //padding-left: 0.5em;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  // background: #aaaaaa;
+  // border-bottom: 1px solid #aaaaaa;
+  width: 50%;
+  //text-align:center;
   min-width: 200px;
+}
+.section .body .title:first-of-type {
+  padding-top: 0;
+}
+.body > .body {
+  border-left: 1px solid #aaaaaa;
+  margin-left: 0.75em;
 }
 .section .element {
-  padding: 0.5em 0.5em 0.2em;
+  //padding-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+.section .element:last-of-type {
+  padding-bottom:0;
 }
 .section .element::first-line {
   margin-left: -10px;
+  font-family: glam, sans-serif;
+  font-size: 1em;
 }
 .section .start {
-  font-size: 1.25em;
+  font-size: 1.5em;
+  line-height: 1;
 }
+
 .section .details {
   //border-left: 2px solid #aaaaaa;
   padding-left:8px;
   margin: 0.3em 0.5em;
 }
 
+.sub {
+  //border-left: 1px solid #aaaaaa;
+  font-size: 0.9em;
+  margin-left: 1em;
+}
+.sub h4 {
+  font-size: 1.75em;
+  text-transform: capitalize;
+  font-variant: normal;
+}
 .listhead {
   font-weight: 600;
 }
-ul.sub {
+ul.short {
   display: inline;
   padding-left: 0;
 }
-ul.sub li {
+ul.short li {
   display: inline;
   list-style-type: none;
 }
-ul.sub li:after {
+ul.short li:after {
   display: inline;
   content: '; '
 }
-ul.sub li:last-child:after {
+ul.short li:last-child:after {
   display: inline;
   content: '';
+}
+ul.long {
+  margin: 0;
+  padding-left: 0.25em;
+  //color: #aaaaaa;
+  list-style: url('/chevron-right.svg'); 
+  text-indent: 0;
+}
+ul.long li::first-letter {
+  text-transform: capitalize;
+}
+
+.section.references .body {
+  display: table-row;
+}
+.section.references .element {
+  display: table-cell;
+  width: 33%;
 }

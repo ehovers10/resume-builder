@@ -9,19 +9,21 @@ var config = {
       design: {
         styles:   ["resume"],
         location: "http://erikhoversten.org/cv",
-        left:     ["name", "description"]
+        left:     ["name"],
+        description: "long",
+        about:    "education",
+        no_description: ["ptlMSU","bestMA","cogsciRU"],
+        base_header_level: 2
       },
       content: {
         info:     "erik",
-        elements: ["education", "employment", "qualifications", "projects", "teaching"],
-        sections: "sections2"
+        elements: ["education", "experience", "qualifications", "projects", "teaching", "references"],
+        sections: "sections-nwcc",
       }
 };
  
 var page_data = Data.getData(config.content),
     page = new Page(config.design,page_data);
-
-app
 
 app.use(express.static('public'))
    .get('/', (req,res) => {

@@ -5,11 +5,13 @@ exports.getData = function getData(config) {
   var directory = 'data',
       elems = {},
       top_file = directory + '/' + config.info + '.yml',
-      sects_file = directory + '/' + config.sections + '.yml';
+      sects_file = directory + '/' + config.sections + '.yml'
+      about_file = directory + '/' + 'about' + '.yml';
 
   try {
     var top   = yaml.safeLoad(fs.readFileSync(top_file, 'utf8')),
-        sects = yaml.safeLoad(fs.readFileSync(sects_file, 'utf8'));
+        sects = yaml.safeLoad(fs.readFileSync(sects_file, 'utf8')),
+        about = yaml.safeLoad(fs.readFileSync(about_file, 'utf8'));
 
     for (elem in config.elements) {
       var source = directory + '/' + config.elements[elem] + '.yml';
@@ -19,5 +21,5 @@ exports.getData = function getData(config) {
     console.log(e);
   }
 
-  return {"top":top,"sections":sects,"elements":elems};
+  return {"top":top,"about":about,"sections":sects,"elements":elems};
 }

@@ -12,7 +12,7 @@ bigDonations:
   organization: Big Reuse
   date: Phase 1 launched December 2016, Phase 2 launched January 2017
   tools: [Jotform form building app, Zapier integration platform, javascript]
-  output: ""
+  output: "http://bigreuse.org/donate/"
   description:
     Development of an automation pipeline to improve the efficiency of materials donations from the customer inquiry phase through adding donated items to inventory. This involved communicating with donations staff regarding their needs, devising an easy-to-use means of acquiring donor information, and translating the data received into formats usable for a variety of web applications. The result is that donors can quickly get a record of their donation for tax purposes and Big Reuse can track the kinds of donations they receive, improve communication with donors, and expand the opportunity for repeat donations.
 
@@ -70,7 +70,7 @@ philTaste:
   date: May 2008
   output: "http://erikhoversten.org/research/disagreement-context-full.pdf"
   description:
-    In my Masters thesis, I examine the evidence for semantic relativism provided by discourses involving disagreement over matters of taste. Intuitively, these discourses involve faultless disagreement; despite having a point of genuine conflict between them, neither party is incorrect in their assertion. I pull out a number of criteria that an adequate proposal for the semantics of predicates of personal taste must meet. While relativism offers one adequate proposal, I argue that a contextualist proposal can also adequately account for our intuitions. The key instight is that disagreement can be carried by pragmatic features of utterances, even if there is no semantic conflict.
+    I examine the evidence for semantic relativism from discourses involving disagreement over matters of taste. Intuitively, despite having a point of genuine conflict between them, neither party to the disagreement is incorrect in their assertion. I pull out criteria that an adequate proposal for the semantics of predicates of personal taste must meet. While relativism is an adequate proposal, I argue that a contextualist proposal can also account for our intuitions. The key insight is that disagreement can be carried by pragmatic features of utterances, even if there is no semantic conflict.
 
 philCollab:
   title: Discourse as Collaborative Inquiry
@@ -86,7 +86,7 @@ letThereBe:
   date: September 2016
   output: "http://erikhoversten.org/lettherebe"
   description: 
-    A series of steam-punk style lamps inspired by philosophical figures and ideas. All lamps were designed and built by Erik in Brooklyn, NY.
+    A website to display a series of steam-punk style lamps inspired by philosophical figures and ideas. All lamps were designed and built by Erik in Brooklyn, NY.
 
 mountainCompost:
   title: Mountain Compost
@@ -95,4 +95,4 @@ mountainCompost:
   output: "http://mountaincompost.com/"
   tools: [Jekyll templating engine, javascript, html, css]
   description:
-    A set of tools related to community-scale composting geared specifically to mountain environments. The website includes a set of data visualization tools (compost calculator, tempurature tracking, and odor analysis), research resources list, and a draft proposal for a implementing a mid-scale composting organization.
+    A set of tools related to community-scale composting geared specifically to mountain environments. The website includes a set of data visualization tools (compost calculator, temperature tracking, and odor analysis), research resources list, and a draft proposal for a implementing a mid-scale composting organization.

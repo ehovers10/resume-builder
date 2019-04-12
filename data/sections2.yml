@@ -1,58 +1,65 @@
-- education:
-    - maRU
-    - maUW
-    - baUW
+- type: education
+  content:
+  - items:
+    - id: maRU
+    - id: maUW
+    - id: baUW
 
-  employment:
-    - type: compost
-      elements:
-        - ocNYCCP
-        - orcNYCCP
-        - faNYCCP
+- type: employment
+  content:
+  - area: compost
+    items:
+    - id: ocNYCCP
+    - id: orcNYCCP
+    - id: faNYCCP
 
-    - type: systems
-      elements:
-        - sysdevBIG
+  - area: systems
+    items:
+    - id: sysdevBIG
 
-    - type: philosophy
-      elements:
-        - ptlMSU
-        - taRU
+  - area: philosophy
+    items:
+    - id: ptlMSU
+    - id: taRU
                 
-  qualifications:
-    - type: compost
-      elements:
-        - skidOp
-        - compostOp
-        - masterComposter 
-    - type: philosophy
-      elements:
-        - cogsciRU
-        - bestMA
+- type: qualifications
+  content:
+  - area: compost
+    items:
+    - id: skidOp
+    - id: compostOp
+    - id: masterComposter 
+  - area: philosophy
+    items:
+    - id: cogsciRU
+    - id: bestMA
 
-- projects:
-    - type: compost
-      elements:
-        - compostOP
-        - compostData
-        - mountainCompost
-    - type: systems
-      elements:
-        - bigWebsite
-        - bigDonations
-        - bigEcom
-        - bigNewsletters
-    - type: philosophy
-      elements:
-        - philCollab
-        - philTaste
+- type: projects
+  content:
+  - area: compost
+    items:
+    - id: compostOP
+    - id: compostData
+    - id: mountainCompost
+  - area: systems
+    items:
+    - id: bigWebsite
+    - id: bigDonations
+    - id: bigEcom
+    - id: bigNewsletters
+  - area: philosophy
+    items:
+    - id: philCollab
+    - id: philTaste
 
-  teaching:
-    - introMSU
-    - logicRU
-    - lrpRU
-    - ethicsRU
-    - cmsiRU    
-    - introRU 
+- type: teaching
+  content:
+  - items:
+    - id: introMSU
+    - id: logicRU
+    - id: lrpRU
+    - id: ethicsRU
+    - id: cmsiRU    
+    - id: introRU 
 
 

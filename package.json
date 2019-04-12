@@ -12,6 +12,6 @@
     "fs": "0.0.1-security",
     "jquery": "^3.3.1",
     "js-yaml": "^3.10.0",
-    "jsdom": "^11.5.1"
+    "paper-jsdom": "^0.12.0"
   }
 }
