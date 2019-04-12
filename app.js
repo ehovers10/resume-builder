@@ -18,7 +18,7 @@ var config = {
       content: {
         info:     "erik",
         elements: ["education", "experience", "qualifications", "projects", "teaching", "references"],
-        sections: "sections-nwcc",
+        sections: "sections-agt",
       }
 };
  

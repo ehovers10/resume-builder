@@ -19,7 +19,7 @@ bigDonations:
 bigEcom:
   title: Ecommerce and POS Platform
   organization: Big Reuse
-  date: Launched July 2017
+  date: Launched July 2017, Major update April 2019
   tools: [Lightspeed Retail and Ecommerce POS, html, twig php templating, javascript]
   output: "http://shop.bigreuse.org"
   description:
@@ -83,10 +83,10 @@ philCollab:
 letThereBe:
   title: Let There Be Lighting
   organization: Erik Hoversten
-  date: September 2016
-  output: "http://erikhoversten.org/lettherebe"
+  date: April 2019
+  output: "http://lettherebe.lighting"
   description: 
-    A website to display a series of steam-punk style lamps inspired by philosophical figures and ideas. All lamps were designed and built by Erik in Brooklyn, NY.
+    A website to display a series of steam-punk style lamps inspired by philosophical figures and ideas. The website contains a system for placing orders of pre-designed or customized lamps.
 
 mountainCompost:
   title: Mountain Compost
@@ -96,3 +96,12 @@ mountainCompost:
   tools: [Jekyll templating engine, javascript, html, css]
   description:
     A set of tools related to community-scale composting geared specifically to mountain environments. The website includes a set of data visualization tools (compost calculator, temperature tracking, and odor analysis), research resources list, and a draft proposal for a implementing a mid-scale composting organization.
+
+wyoCraft:
+  title: Wyo Craft Brewers Guild Website
+  organization: Wyoming Craft Brewers Guild
+  date: April 2019
+  output: "http://wyocraftbrewersguild.com"
+  tools: [WordPress, php, html, css]
+  description:
+    A simple WordPress site for a nonprofit organization located in Sheridan, WY. I started with a base theme and developed a custom plugin to create templates for use with a set of custom post types. The customer did not have a lot of web experience, so I put an emphasis on organizing the WordPress admin panel to make content updates simple and intuitive.

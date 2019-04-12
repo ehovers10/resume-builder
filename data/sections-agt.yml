@@ -1,0 +1,103 @@
+- page:
+    - group: experience
+      content:
+        - area: digital development
+          items:
+            - id: sysdevBIG
+              type: experience
+            - id: psR
+              type: experience
+        - area: compost
+          items:
+            - id: ocNYCCP
+              type: experience
+            - id: orcNYCCP
+              type: experience
+        - area: philosophy
+          items:
+            - id: ptlMSU
+              type: experience
+            - id: taRU
+              type: experience
+#              sub:
+#                - area: courses taught
+#                  items:
+#                   - id: introMSU
+#                     type: teaching
+#                   - id: logicRU
+#                     type: teaching
+#                   - id: lrpRU
+#                     type: teaching
+#                   - id: ethicsRU
+#                     type: teaching
+#                   - id: cmsiRU    
+#                     type: teaching
+#                   - id: introRU 
+#                     type: teaching
+
+
+    - area: references
+      items:
+        - id: justin
+          type: references
+        - id: leah
+          type: references
+        - id: susanna
+          type: references
+
+- page:
+    - group: education
+      content:
+        - area: 
+          items:
+            - id: cogsciRU
+              type: qualifications
+              sub:
+                - items:     
+                    - id: philCollab
+                      type: projects
+#                    - id: cogsciRU
+#                      type: qualifications
+            - id: maUW
+              type: education
+              sub:
+                - items:
+                    - id: philTaste
+                      type: projects
+                    - id: bestMA
+                      type: qualifications
+            - id: baUW
+              type: education
+#        - area: certification
+#          items:
+#            - id: skidOp
+#              type: qualifications
+#            - id: compostOp
+#              type: qualifications
+#            - id: masterComposter
+#              type: qualifications
+
+    - group: projects
+      content:
+        - area: digital development
+          items:
+            - id: wyoCraft
+              type: projects
+            - id: bigWebsite
+              type: projects
+            - id: bigDonations
+              type: projects
+            - id: bigEcom
+              type: projects
+            - id: letThereBe
+              type: projects
+        - area: compost
+          items:
+            - id: compostOP
+              type: projects
+            - id: compostData
+              type: projects
+            - id: mountainCompost
+              type: projects
+
+
